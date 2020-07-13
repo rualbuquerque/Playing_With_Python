@@ -6,7 +6,8 @@ uploaded = files.upload()
 
 #Importing libraries
 
-import pandas as pd 
+import pandas as pd
+import numpy as np
 
 
 # Open the file:
