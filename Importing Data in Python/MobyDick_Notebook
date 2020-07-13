@@ -1,0 +1,32 @@
+#Basic commands to import a .txt file with Python
+
+#import data to google.colab
+from google.colab import files
+uploaded = files.upload()
+
+#Importing libraries
+
+import pandas as pd 
+
+
+# Open the file:
+mobydickFile = open('moby_dick.txt', mode='r')
+
+# Print it
+print(mobydickFile.read())
+
+# Check whether file is closed
+print(file.closed)
+
+# Close file
+file.close()
+
+# Check whether file is closed
+print(file.closed)
+
+# Read & print 
+with open('moby_dick.txt') as mobydickFile:
+    print(mobydickFile.readline()) #each command will print one line
+    print(mobydickFile.readline())
+    print(mobydickFile.readline())
+    print(mobydickFile.readline())
